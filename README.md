@@ -2,7 +2,7 @@
 ## Step 1: Clone the Repository
 
 
-`git clone [repository_url]`
+`git clone https://github.com/mohit-jha/image2text.git`
 
 ## Step 2: Install Dependencies for Client
 
