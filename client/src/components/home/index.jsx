@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { ProgressBar } from "react-loader-spinner";
-import Tesseract from "tesseract.js";
-import ColorThief from "colorthief";
-import * as PIXI from "pixi.js";
 
 function App() {
   const [file, setFile] = useState();
