@@ -1,0 +1,479 @@
+.login_wrapper {
+  /* font-family: "Centra No2"; */
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginContainer {
+  height: 350px;
+  width: 50vw;
+  display: flex;
+  max-width: 1500px;
+  overflow: hidden;
+  gap: 24px;
+  margin: auto;
+}
+
+.error_msg {
+  height: fit-content !important;
+  font-family: "Roboto";
+  font-weight: 500;
+  text-align: left;
+  font-size: 14px;
+  /* margin-top: 30px; */
+  /* margin-left: 78px; */
+}
+
+.error_msg p {
+  margin: 0;
+}
+
+.left {
+  flex: 1;
+  padding-block: 1.5rem;
+}
+
+.leftOtp {
+  flex: 1.5;
+  padding-block: 1.5rem;
+  padding-left: 12%;
+  padding-top: 8%;
+}
+.leftOtp .form {
+  width: 100%;
+  /* height: 72px; */
+  margin-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.leftOtp .app_name {
+  font-family: "Audiowide", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  margin-bottom: 2rem;
+}
+
+.left .app_name {
+  font-family: "Audiowide", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  margin-bottom: 2rem;
+}
+.App {
+  max-width: 100vw;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app_description .title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0px;
+  color: #0d0d0d;
+  margin-bottom: 1rem;
+  width: 66%;
+  /* max-width: 350px; */
+  /* height: 68px; */
+  opacity: 0.8;
+}
+.app_description .titleOtp {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0px;
+  color: #0d0d0d;
+  margin-bottom: 1rem;
+  width: 66%;
+  /* max-width: 350px; */
+  /* height: 68px; */
+  opacity: 0.8;
+  /* font-family: Centra No2 TRIAL; */
+}
+
+.app_description .description {
+  /* width: 77%; */
+  /* height: 110px; */
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  max-width: 553px;
+}
+
+.app_description .descriptionOtp {
+  /* width: 77%; */
+  /* height: 110px; */
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  max-width: 553px;
+  /* font-family: Centra No2 TRIAL; */
+}
+.app_description .timer {
+  /* font-family: Centra No2 TRIAL; */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #e72d13;
+}
+
+.left .form {
+  width: 100%;
+  /* height: 72px; */
+  margin-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form label {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  padding-block: 4px;
+  display: block;
+  text-align: left;
+}
+
+.form input:first-child {
+  /* margin-bottom: 1rem; */
+}
+
+.form .input {
+  width: 100%;
+  height: 44px;
+  /* padding: 12px 16px !important; */
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+}
+
+.tnc {
+  width: 62%;
+  margin-block: 1rem;
+  font-size: 12px !important;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 17px;
+}
+.tnc div {
+  display: inline-block;
+  color: #1e468c;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login_button button {
+  width: 100%;
+  height: 56px;
+  padding: 12px 20px;
+  border-radius: 3px;
+  border: 1px solid #1e468c;
+  background-color: #1e468c;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.fa_btn span:hover,
+.fa_btn:hover {
+  color: white !important;
+  border: none !important;
+}
+.login_button button:disabled {
+  background-color: #ddd;
+  border: none;
+  cursor: default;
+}
+
+.Otpdiv {
+  border: 1px solid #cccccc80;
+  width: 451px;
+  height: 70px;
+  padding-top: 2px;
+  padding-left: 5px;
+  /* display: flex; */
+  /* justify-content: center !important;
+  align-items: center; */
+}
+.custom-input {
+  outline: none !important;
+}
+
+.verify_button button {
+  width: 455px;
+  height: 56px;
+  padding: 12px 20px;
+  border-radius: 3px;
+  border: 1px solid #1e468c;
+  background-color: #1d5e5c;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+.verify_button button:disabled {
+  background-color: #ddd;
+  border: none;
+  cursor: default;
+}
+:where(.css-dev-only-do-not-override-fpg3f5).ant-checkbox-wrapper {
+  font-size: 12px !important;
+}
+
+.login_button button:hover {
+  opacity: 0.95;
+}
+
+.need_help div {
+  display: inline;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color: #1d58c3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.need_helpOtp {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0px;
+  color: #1d58c3;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: -10px;
+}
+/* .need_helpOtp .resendbtn{
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0px;
+  color: #1d58c3 !important;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: -15px;
+} */
+.resendbtn {
+  border: none;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0px;
+  color: #1d58c3;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: -13px;
+  margin-left: 0px;
+  padding-left: 0;
+}
+.resendbtn span {
+  text-decoration: underline;
+}
+
+:where(.css-dev-only-do-not-override-1rmpt7d).ant-btn-link {
+  color: #1d58c3;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 5px;
+  letter-spacing: 0px;
+  text-decoration: underline !important;
+  cursor: pointer;
+  margin-left: -15px;
+}
+
+.right {
+  flex: 1;
+  max-height: 320px;
+  /* display: flex; */
+}
+.rightOtp {
+  flex: 2.5;
+}
+
+.login_image {
+  height: 100%;
+  text-align: right;
+}
+
+.login_image img {
+  width: 350px;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.screen_badge {
+  background: #1e468c;
+  height: auto;
+  padding: 17px 30px 17px 40px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  left: 0px;
+  margin: 0px 0 0px 0;
+}
+.screen_badge span {
+  /* font-family: Centra No2 TRIAL; */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.section_wrapper {
+  padding-left: 40px;
+  padding-right: 100px;
+}
+
+.section_wrapper .title {
+  color: #0f0f0f;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-top: 40px;
+}
+.section_wrapper p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #0f0f0f;
+  opacity: 0.7;
+  margin-top: 4px;
+}
+
+.custom_drawer .ant-drawer-body {
+  padding: 0 !important;
+  width: 100%;
+}
+
+.custom_drawer .ant-drawer-body .drawer_container {
+  height: calc(100vh - 335px);
+  width: 95%;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+}
+
+.drawer_container .svg {
+  padding-left: 40px;
+  margin-top: 26px;
+}
+.custom_drawer .ant-drawer-header-title {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.custom_drawer .ant-drawer-header {
+  border-bottom: none;
+  padding: 40px 0 0 0;
+}
+
+.contact_container {
+  background-color: #fafafa;
+  padding: 40px;
+}
+
+.contact_container span {
+  color: #353744;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.contact_container p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.contact_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 66px;
+}
+.contact_wrapper .btn_wrapper {
+  background-color: #1e468c;
+  width: 204px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.contact_container .mail {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #0f0f0f;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-top: 41px;
+  cursor: pointer;
+}
+
+.mail_help {
+  font-weight: 500 !important;
+  text-decoration: underline;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  margin-left: 4px;
+}
+
+.custom_drawer .ant-drawer-close {
+  margin-right: 30px;
+}
