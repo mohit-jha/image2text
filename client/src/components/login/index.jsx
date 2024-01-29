@@ -3,7 +3,8 @@ import axios from "axios"; // Add this import
 import "./login.css";
 import loginImage from "../../assets/images/login.jpg";
 import { useNavigate } from "react-router-dom";
-
+import apiConfig from "../../api/apiConfig";
+import endpoints from "../../api/endpoints";
 const LoginScreen = () => {
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
@@ -35,17 +36,16 @@ const LoginScreen = () => {
   const handleLogin = async () => {
     setLoading(true);
     let userData = { username, password };
-    console.log(userData, "userData");
-
+    let url = apiConfig.baseURL + endpoints.login;
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/login/",
+        url,
         userData
       ); // Replace with your API endpoint
       console.log("Response:", response.data);
       sessionStorage.setItem("token", response.data.token);
-      if (response.data.token){
-        return navigate('/')
+      if (response.data.token) {
+        return navigate("/");
       }
     } catch (error) {
       console.error("Error:", error);

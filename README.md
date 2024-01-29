@@ -4,12 +4,15 @@
 
 `git clone https://github.com/mohit-jha/image2text.git`
 
+`cd img2tex`
+
 ## Step 2: Install Dependencies for Client
 
 
 `cd client`
 
-npm install
+`npm install`
+
 ## Step 3: Start the Client
 
 
@@ -34,10 +37,10 @@ For Windows:
 ## Step 6: Run Django Migrations
 
 
-#### `cd management`
+#### `cd managment`
 #### `pip install -r requirements.txt`
 
-#### `python3 manage.py makemigration`
+#### `python3 manage.py makemigrations`
 #### `python3 manage.py migrate`
 #### `python3 manage.py runserver`
 
