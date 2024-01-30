@@ -9,8 +9,10 @@
 
 `cd client`
 
-npm install
-## Step 3: Start the Client
+
+`npm install`
+
+## Step 3: Start the Client server
 
 
 `npm start`
@@ -49,6 +51,8 @@ On Linux
 
 #### `python3 manage.py makemigration`
 #### `python3 manage.py migrate`
+
+## Step 7: Start Django server 
 #### `python3 manage.py runserver`
 
 ## Step 8: Open Browser
