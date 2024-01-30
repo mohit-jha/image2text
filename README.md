@@ -13,7 +13,7 @@
 
 `npm install`
 
-## Step 3: Start the Client
+## Step 3: Start the Client server
 
 
 `npm start`
