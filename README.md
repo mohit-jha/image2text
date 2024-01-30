@@ -42,9 +42,11 @@ For Windows:
 
 #### `python3 manage.py makemigrations`
 #### `python3 manage.py migrate`
+
+## Step 7: Start Django server 
 #### `python3 manage.py runserver`
 
-## Step 7: Open Browser
+## Step 8: Open Browser
 Navigate to http://localhost:3000/
 
 ### Login Credentials
