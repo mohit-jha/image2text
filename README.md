@@ -4,15 +4,12 @@
 
 `git clone https://github.com/mohit-jha/image2text.git`
 
-`cd img2tex`
-
 ## Step 2: Install Dependencies for Client
 
 
 `cd client`
 
-`npm install`
-
+npm install
 ## Step 3: Start the Client
 
 
@@ -34,17 +31,27 @@ For Windows:
 
 `.\env\Scripts\activate`
 
-## Step 6: Run Django Migrations
+## Step 6: Install tesseract in machine  
 
+on mac
+### `brew install tesseract`
 
-#### `cd managment`
+On Linux
+### `sudo apt update`
+### `sudo apt install tesseract-ocr`
+### `sudo apt install libtesseract-dev`
+
+## Step 7: Install dependencies and Run Django Migrations
+
+#### `cd management`
+
 #### `pip install -r requirements.txt`
 
-#### `python3 manage.py makemigrations`
+#### `python3 manage.py makemigration`
 #### `python3 manage.py migrate`
 #### `python3 manage.py runserver`
 
-## Step 7: Open Browser
+## Step 8: Open Browser
 Navigate to http://localhost:3000/
 
 ### Login Credentials
